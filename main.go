@@ -57,7 +57,7 @@ func sendRequest(rawURL string) ([]byte, *http.Response, error) {
 }
 
 func main() {
-	rawURL := "https://www.webfx.com/web-development/glossary/http-status-codes/what-is-a-304-status-code/"
+	rawURL := "https://cdn-ak.f.st-hatena.com/images/fotolife/g/golang/20181009/20181009042416.png"
 
 	for i := 0; i < 2; i++ {
 		now := time.Now()
